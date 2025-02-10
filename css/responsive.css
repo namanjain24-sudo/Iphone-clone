@@ -1,0 +1,48 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    .top-header .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .location {
+        width: 100%;
+    }
+
+    .app-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .app-buttons {
+        justify-content: center;
+    }
+
+    .main-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}

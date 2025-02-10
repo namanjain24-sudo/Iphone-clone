@@ -1,0 +1,15 @@
+/* Main CSS file that imports all modules */
+@import 'reset.css';
+@import 'header.css';
+@import 'navigation.css';
+@import 'hero.css';
+@import 'quick-links.css';
+@import 'categories.css';
+@import 'services.css';
+@import 'trending.css';
+@import 'deals.css';
+@import 'testimonials.css';
+@import 'newsletter.css';
+@import 'app-download.css';
+@import 'footer.css';
+@import 'responsive.css';

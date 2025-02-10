@@ -1,0 +1,40 @@
+/* App Download Section */
+.app-download {
+    background: #f8f8f8;
+    padding: 60px 0;
+}
+
+.app-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.app-info {
+    flex: 1;
+}
+
+.app-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.app-button {
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.app-image {
+    flex: 1;
+}
+
+.app-image img {
+    max-width: 100%;
+}

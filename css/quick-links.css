@@ -1,0 +1,40 @@
+/* Quick Links Section */
+.quick-links {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.quick-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.quick-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.quick-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.quick-link i {
+    font-size: 24px;
+    color: #ff3d00;
+    margin-bottom: 10px;
+}
+
+.quick-link span {
+    font-size: 14px;
+    font-weight: 500;
+}
